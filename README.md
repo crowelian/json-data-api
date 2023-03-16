@@ -16,6 +16,9 @@ java -Dendpoints=data -DjsonFiles="../test.json" -jar .\json-api-0.0.1-SNAPSHOT.
 
 # example of unsecure start (without jwt):
 java -Dendpoints=data -DjsonFiles="../test.json" -D"app.enableJwtAuthentication=false" -jar .\json-api-0.0.1-SNAPSHOT.jar
+
+# start the server with different port
+java -D"server.port=1132" -jar .\json-api-jwt-works.jar
 ```
 
 If you do not pass any endpoints, you can test that the api is running by going to localhost:<port>/test

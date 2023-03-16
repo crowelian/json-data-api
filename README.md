@@ -1,6 +1,8 @@
 # json-data-api
 Simple way to serve json data with Json Web Token
 
+## TODO
+- jwt implementation
 
 ## Usage
 build

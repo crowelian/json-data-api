@@ -1,8 +1,5 @@
 # json-data-api
-Simple way to serve json data with Json Web Token
-
-## TODO
-- jwt implementation
+Simple Spring Boot app to serve json data with Json Web Token
 
 ## Usage
 build
